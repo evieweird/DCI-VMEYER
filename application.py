@@ -10,4 +10,4 @@ def hello_world():
 
 @application.route('/database/', methods=['GET', 'POST'])
 def about():
-    return render_template('database.html', data="hi")
+    return render_template('database.html')
